@@ -31,6 +31,8 @@ SAR images contain speckle-noise. We experimented with a few of the denoising fi
 - **Gaussian Filter:** Blurs images through averaging using a Gaussian kernel, reduces high-frequency noise.
 - **Bilateral Filter:** Smoothing without edge loss, by considering both spatial and intensity changes.
 
+After applying these filters and plotting their histograms, the Kuan filter gives a smoother, narrower histogram with better speckle reduction and detail preservation than all the other filters so we decided to go with kaun filter for noise reduction.
+
 ### 3. Image Enhancement & Feature Extraction
 
 - **Thresholding:** Applied various thresholding techniques (global, adaptive) to segment dark patches.
