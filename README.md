@@ -1,9 +1,9 @@
-# OIL SPILL DETECTION ON SEA SURFACE USING SAR IMAGES
+# OIL SPILL DETECTION ON SEA SURFACE USING SAR(Synthetic Aperture Radar) IMAGES
 # Overview
 
 The project handles oil spill detection in Synthetic Aperture Radar (SAR) images by a whole pipeline starting from physics understanding, traditional image processing to machine learning modeling. The approach addresses pre-processing the data, engineering the features, and the classification through a mix of both classical and contemporary approaches.
 
-## Physics Behind SAR and Oil Spill Detection
+## Physics Behind SAR and Oil Spill Detection 
 
 Synthetic Aperture Radar (SAR) is an active Earth observation system that emits microwave signals and records the backscatter from the Earth's surface. SAR imagery over water is responsive to changes in surface roughness:
 
@@ -48,7 +48,7 @@ After feature extraction of oil spill candidates:
 - Classical models.
 - Trained and validated on annotated data.
 
-### 5. Postprocessing
+### 5. Postprocessing 
 
 - Applied morphological methods to fill in the mask of detected oil spills.
 - Removed tiny artifacts and holes in the detected region. 
